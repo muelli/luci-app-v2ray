@@ -32,7 +32,7 @@ jobs:
       - name: Build
         uses: openwrt/gh-action-sdk@main
         env:
-          ARCH: ${{ matrix.arch }}-${{ matrix.branch }}
+          ARCH: ${{ matrix.arch }}
           FEED_DIR: ${{ github.workspace }}
           PACKAGES: ${{ env.PACKAGE_NAME }}
 
