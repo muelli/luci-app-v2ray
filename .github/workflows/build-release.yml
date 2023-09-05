@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         arch:
-          - arm_cortex-a7
+          - mips_24kc
           # - arm_cortex-a9
 
     steps:
